@@ -69,7 +69,7 @@ The output is a file with stiffness predictions (soft or stiff) for each sample.
 
 Example output format:
 ```  
-		Sample1	Sample2	Sample3	Sample4	Sample5	Sample6
+		tumor_rigidity_label
 	Sample1	soft
 	Sample2	stiff
 	Sample3	soft
