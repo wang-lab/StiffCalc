@@ -1,0 +1,8 @@
+name: stiffcalc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base=4.3.2
+  - r-glmnet
+  - r-optparse

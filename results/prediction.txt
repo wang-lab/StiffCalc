@@ -1,0 +1,7 @@
+	tumor_rigidity_label
+Sample1	soft
+Sample2	soft
+Sample3	soft
+Sample4	stiff
+Sample5	stiff
+Sample6	stiff
