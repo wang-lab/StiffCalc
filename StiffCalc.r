@@ -1,5 +1,5 @@
-library(glmnet)
-library(optparse)
+suppressMessages(suppressWarnings(library(glmnet)))
+suppressMessages(suppressWarnings(library(optparse)))
 
 args <- commandArgs(trailingOnly = TRUE)
 
@@ -27,7 +27,7 @@ input_data <- read.csv(opt$input, row.names = 1, sep = "\t")
 
 
 # Define the gene signatures of interest
-gene_signatures <- c('S1PR1', 'EDN2', 'DIO2', 'KRT14', 'DAW1', 'KRT17', 'TNNT2', 'IL6', 'DOCK4')
+gene_signatures <- c("ODC1", "SDC1", "LINC00842", "CREB3L1", "CGB8", "PI3", "ATOH8", "ADD3")
 
 convert_to_cpm <- function(count_matrix) {
   # Calculate the total counts per sample (column)
